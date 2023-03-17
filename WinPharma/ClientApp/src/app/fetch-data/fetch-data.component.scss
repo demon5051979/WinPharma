@@ -1,0 +1,24 @@
+.data-container {
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .buttons-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .refresh-button {
+        width: 20%;
+        min-width: 300px;
+      }
+    }
+    
+
+    padding-bottom: 20px;
+  }
+}
+
+.mat-cell {
+  padding: 0 10px 0 10px;
+}
